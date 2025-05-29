@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+   
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+
+</head>
+
+<body>
+
+    <div class="header" id="myHeader">
+        <h1>FAKULTI KEJURUTERAAN & TEKNOLOGI ELEKTRONIK</h1>
+
+    </div>
+
+    <header>
+        <div class="container">
+            <h1 class="logo"></h1>
+            <img src="image/logo.png" alt="logo.png" style="width: 50px;">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ABOUT.html">About</a></li>
+                    <li><a href="CONTACT.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+       
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+        <div class="w3-content w3-section" style="max-width:100%">
+            <img class="mySlides" src="image/images.unimap.jpeg" style="width:100%">
+            <img class="mySlides" src="image/welcome.unimap.jpg" style="width:100%">
+            <img class="mySlides" src="image/programme.unimap.jpeg" style="width:100%">
+        </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
+        <br><br>
+
+        <div>
+            <center>
+                <iframe width="410" height="310"
+                    src="https://youtube.com/embed/ml4dBWtSmko?si=VucVC-ACA-4QB_0L"></iframe>
+                <iframe width="410" height="310"
+                    src="https://youtube.com/embed/gi8QC29gpV0?si=BYIjPcfj5MAKjqSz"></iframe>
+            </center>
+               <br>
+
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <p1>
+            Contact Information
+        </p1>
+        Faculty of Electronic Engineering & Technology (FKTEN)<br>
+        University Malaysia Perlis (UniMAP)<br>
+        Pauh Putra Campus, 02600 Arau, Perlis, MALAYSIA.
+        <br>
+        Tel : 04 - 988 5509/5515<br>
+        Fax : 04 - 988 5510<br>
+        Email : <a href="fkten@unimap.edu.my">fkten@unimap.edu.my</a>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
